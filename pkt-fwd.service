@@ -1,0 +1,8 @@
+[Unit]
+Description=start pktfwd
+
+[Service]
+ExecStart=/bin/bash /opt/pkt-fwd_start.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,8 @@
+[Unit]
+Description=start diagnostic service
+
+[Service]
+ExecStart=/bin/bash /opt/config_start.sh
+
+[Install]
+WantedBy=multi-user.target
