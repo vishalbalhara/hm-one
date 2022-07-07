@@ -40,5 +40,4 @@ tzdata==2022.1
 tzlocal==4.2
 urllib3==1.26.9
 Werkzeug==2.0.3
--e ../hm-pyhelper
 -e ../hm-diag
