@@ -20,9 +20,9 @@ UTIL_CHIP_ID_FILEPATH="$SX1302_DIR/chip_id"
 # The sx1302_hal concentrator script requires reset_lgw to be in this location
 RESET_LGW_FILEPATH="$ROOT_DIR/reset_lgw.sh"
 
-source $ROOT_DIR/.venv/bin/activate
-export PYTHONPATH="${PYTHONPATH}:$ROOT_DIR"
 cd $ROOT_DIR
 
 # Run pktfwd/__main__.py
 python3 pktfwd
+
+cd -
